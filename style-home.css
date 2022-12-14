@@ -1,0 +1,441 @@
+body {
+    background: lightblue;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.nav {
+    position: absolute;
+    top: 220px;
+    right: 0px;
+}
+
+nav a {
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000; 
+    font-family: Montserrat;
+    box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	color: black;
+    padding: 5px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:white;
+    font-size:35px;
+}
+
+.sumario nav a {
+    position: relative;
+    top: 13px;
+    left: 500px;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000; 
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	color: black;
+}
+
+
+.banner {
+    position: relative;
+    
+    width: 100%;
+    height: 600px;
+}
+
+.texto-principal {
+    margin: 60px 0 40px 0;
+}
+
+.txtprincipal {
+    padding: 125px 0 0 0;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.txt {
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+p em {
+    font-style:italic ;
+}
+
+.mapa {
+    margin: 0 0 20px;
+    margin-left: 15%;
+}
+
+.imgpesca {
+    float: right;
+    width: 800px;
+    height: 500px;
+    margin-right: 130px;
+}
+
+.opcoes {
+    margin: 400px 0 0 0;
+}
+
+.imgfood {
+    display: inline-block;
+    width: 25%;
+    height: 470px;
+    margin-left: 17%;
+    border-radius: 10px;
+}
+
+
+.imagemlider {
+    display: inline-block;
+    width: 25%;
+    height: 470px;
+    margin-left: 10%;
+}
+
+.imagem {
+    display: inline-block;
+    width: 25%;
+    height: 470px;
+    margin-left: 2.5%;
+}
+
+footer {
+	background: url("bg.jpg");
+	padding: 10px;
+	color: white;
+}
+
+.img {
+	width: 5%;
+	margin-left: 120px;
+	padding: 0 0 25px;
+	display: inline-block;
+	top: 220px;
+}
+
+.img2 {
+	width: 3.5%;
+	margin-left: 120px;
+	padding: 0 0 25px;
+	display: inline-block;
+	top: 220px;
+}
+
+.img3 {
+    position: static;
+	width: 2.5%;
+	margin: 0 0 0 400px;
+	display: inline-block;
+	top: 220px;
+}
+
+.img4 {
+	width: 2.5%;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.numerodecontato p {
+    font-size: 15px;
+	margin-left: 20px;
+	display: inline-block;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+
+    html {
+        height: 100%;
+    }
+
+    .banner {
+        width: 414px;
+        height: 300px;
+    }
+
+    .sumario nav a {
+        top: 10px;
+        left: 0px;
+        margin: 0 0 0 6px;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 25px;
+        margin: 30px 0 0 0;
+    }
+
+    .texto-principal {
+        margin: 60px 20px 10px 0;
+    }
+
+
+    .txtprincipal {
+        text-align: left;
+        margin: 0px 0 0 10px;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+}
+
+    .txt {
+        text-align: left;
+        margin: 40px 10px 0 10px;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+}
+
+
+    .imgpesca {
+        position: relative;
+        top: 0px;
+        width: 300px;
+        height: 300px;
+        margin: 50px 60px 50px 0;
+}
+
+    .opcoes {
+        margin: 0;
+    }
+
+    .imagemlider {
+        display: inline-block;
+        width: 127px;
+        height: 180px;
+        margin-left: 3%;
+    }
+
+    .imagem {
+        display: inline-block;
+        width: 127px;
+        height: 180px;
+        margin-left: 1.5%;
+    }
+
+    .mapa {
+        margin: 0 0 20px;
+        margin-left: 8%;
+        height: 250px;
+        width: 350px;
+    }
+
+    footer{
+        width: 394px;
+    }
+
+    .img {
+        position: relative;
+        top: -25px;
+        width: 40px;
+        margin-left: 10px;
+        padding: 0 0 15px;
+        display: inline-block;
+    }
+
+    .numerodecontato p {
+        position: relative;
+        top: -45px;
+        font-size: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    #number {
+        margin: 0 0 20px 0;
+        left: 20px;
+    }
+
+    .local {
+        position: relative;
+        left: 55px;
+    }
+
+    .img2 {
+        position: relative;
+        right: 300px;
+        top: 60px;
+        width: 40px;
+        margin-left: 25px;
+        padding: 0 20px 25px;
+        display: inline-block;
+    }
+
+    .img3 {
+        position: relative;
+        left: -30px;
+        float:right;
+        width: 40px;
+        top: -140px;
+    }
+
+    .img4 {
+        width: 40px;
+        position: relative;
+        bottom: 30px;
+        left: 80px;
+    }
+
+@media screen and (max-width: 391px) {
+        .sumario nav a {
+            top: 10px;
+            left: 40px;
+            margin: 0 0 0 1px;
+            font-size: 9.5px;
+        }
+
+        
+        .imgpesca {
+            position: relative;
+            top: 0px;
+            width: 300px;
+            height: 300px;
+            margin: 50px 30px 50px 0;
+    }
+
+    .imagemlider {
+        display: inline-block;
+        width: 120px;
+        height: 180px;
+        margin-left: 0.5%;
+    }
+
+    .imagem {
+        display: inline-block;
+        width: 120px;
+        height: 180px;
+        margin-left: 1.5%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .sumario nav a {
+        top: 10px;
+        left: 40px;
+        margin: 0px;
+        font-size: 8px;
+    }
+    .texto-principal {
+        margin: 60px 0px 10px 100px;
+    }
+    .imgpesca {
+        position: relative;
+        top: 0px;
+        width: 300px;
+        height: 300px;
+        left: 85px;
+}
+.txtprincipal {
+    text-align: left;
+    margin: 0px 0 0 70px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.txt {
+    text-align: left;
+    margin: 40px 0px 0 70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+    
+    .opcoes h1 {
+        margin: 15px 0 0 50px;
+    }
+
+    .imagemlider {
+        display: inline-block;
+        width: 80px;
+        height: 150px;
+        margin-left: 35px;
+    }
+
+    .imagem {
+        display: inline-block;
+        width: 80px;
+        height: 150px;
+        margin-left: 0;
+    }
+
+    .localizacao h1{
+        margin: 20px 0 20px 50px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .sumario nav a {
+        top: 10px;
+        left: 70px;
+        margin: -2px;
+        font-size: 7px;
+    }
+    .imgpesca {
+        position: relative;
+        top: 0px;
+        width: 300px;
+        height: 300px;
+        left: 100px;
+}
+.imagemlider {
+    display: inline-block;
+    width: 70px;
+    height: 150px;
+    margin-left: 0px;
+}
+
+.imagem {
+    display: inline-block;
+    width: 70px;
+    height: 150px;
+    margin-left: 10px;
+}
+}
+
+}

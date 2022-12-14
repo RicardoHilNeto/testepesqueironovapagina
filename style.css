@@ -1,0 +1,555 @@
+body {
+    background: #BBBBBB;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000; 
+    font-family: Montserrat;
+    box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	color: black;
+    padding: 5px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:white;
+    font-size:35px;
+}
+
+.sumario nav a {
+    position: relative;
+    top: 13px;
+    left: 500px;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000; 
+    font-family: Montserrat;
+    box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	color: black;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px ;
+}
+
+.imgpeixe {
+	width: 100%;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	margin-left: 10%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	color: black;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+.encomendatilapia p {
+	text-align: center;
+	font-size: 20px;
+}
+
+.titulo {
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+
+.observacao p {
+	text-align: center;
+	margin: 40px 0 10px 15px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.tabela {
+	position: relative;
+	left: 780px;
+}
+
+table {
+	margin: 25px 0 0 50px;
+	display: inline-block;
+}
+
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.texto {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin: 100px 0 15px 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.estacionamento {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.lista {
+	margin: 10px 0 0 0;
+}
+
+.lista:before, .lista2:before {
+    content: "●";
+}
+
+.itens {
+	margin: 25px 0 15px 0;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+.cardapio {
+	margin: 60px 0 0 0;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.cardapio p {
+    margin: 0 25% 0 25%;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.cardapio p em, strong {
+    font-weight: bold;
+    font-style:italic;
+}
+
+.comida1 {
+    width: 200px;
+    float: left;
+    margin-left: 20%;
+}
+
+.categorias {
+    position:static;
+    display: inline-block;
+    top: 200px;
+    margin-left: 250px;
+    width: 300px;
+    transition: 800ms;
+    opacity: 1;
+}
+
+.categorias:hover {
+    transition: 800ms;
+    opacity: 0.5;
+}
+
+.categoria2 {
+    position:static;
+    display: inline-block;
+    margin: 100px 0 0 50px;
+    margin-left: 100px;
+    width: 287px;
+    transition: 800ms;
+    opacity: 1;
+}
+
+.categoria2:hover {
+    transition: 800ms;
+    opacity: 0.5;
+}
+
+
+
+
+
+.produtos {
+	width: 940px;
+	margin: 60px 300px;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.tilapia {
+    width: 200px;
+}
+
+.tilapia ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin: 0 0 10px;
+	margin-left: 42.6%;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.item:before {
+	content: "●"
+}
+
+
+
+
+
+
+
+footer {
+	background: url("bg.jpg");
+	padding: 40px 0;
+	color: white;
+}
+
+.img {
+	width: 5%;
+	margin-left: 120px;
+	padding: 0 0 25px;
+	display: inline-block;
+	top: 220px;
+}
+
+.img2 {
+	width: 3.5%;
+	margin-left: 120px;
+	padding: 0 0 25px;
+	display: inline-block;
+	top: 220px;
+}
+
+.img3 {
+	width: 2.5%;
+	margin-left: 20px;
+	padding: 0 0 0 400px;
+	display: inline-block;
+	top: 220px;
+}
+
+.img4 {
+	width: 2.5%;
+	margin-left: 20px;
+	display: inline-block;
+	top: 220px;
+}
+
+.numerodecontato p {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+@media screen and (max-width: 420px) {
+	html {
+        height: 100%;
+    }
+
+    .banner {
+        width: 414px;
+        height: 300px;
+    }
+
+    .sumario nav a {
+        top: 10px;
+        left: 0px;
+        margin: 0 0 0 6px;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 25px;
+        margin: 30px 0 0 0;
+    }
+
+	
+.cardapio {
+	margin: 10px 0 0 0;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.cardapio p {
+    margin: 0 ;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cardapio p em, strong {
+    font-weight: bold;
+    font-style:italic;
+}
+
+.comida1 {
+    width: 150px;
+    float: left;
+    margin-left: 0%;
+}
+
+.categorias {
+    position:relative;
+    display: inline-block;
+	top: 0px;
+    margin-left: 25px;
+    width: 70px;
+    transition: 800ms;
+    opacity: 1;
+}
+
+.categorias:hover {
+    transition: 800ms;
+    opacity: 0.5;
+}
+
+.categoria2 {
+    position:relative;
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    margin-left: 10px;
+    width: 70px;
+    transition: 800ms;
+    opacity: 1;
+}
+
+.categoria2:hover {
+    transition: 800ms;
+    opacity: 0.5;
+}
+
+footer{
+	width: 414px;
+}
+
+.img {
+	position: relative;
+	top: -25px;
+	width: 40px;
+	margin-left: 10px;
+	padding: 0 0 15px;
+	display: inline-block;
+}
+
+.numerodecontato p {
+	position: relative;
+	top: -45px;
+	font-size: 10px;
+	margin: 0 0 0 20px;
+}
+
+#number {
+	margin: 0 0 20px 0;
+	left: 20px;
+}
+
+.local {
+	position: relative;
+	left: 55px;
+}
+
+.img2 {
+	position: relative;
+	right: 300px;
+	top: 60px;
+	width: 40px;
+	margin-left: 25px;
+	padding: 0 20px 25px;
+	display: inline-block;
+}
+
+.img3 {
+	position: relative;
+	left: -30px;
+	float:right;
+	width: 40px;
+	top: -140px;
+}
+
+.img4 {
+	width: 40px;
+	position: relative;
+	top: -30px;
+	left: 100px;
+}
+}

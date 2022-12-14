@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Pesqueiro Nossa Familia</title>
+</head>
+    <body>
+        <header>
+            <div class="caixa">
+                <legend><img src="logo.png"></legend>
+                    <nav>
+                        <lu>
+                            <li><a href=index.html>Menu</a></li>
+                            <li><a href=peixes.html>Peixes</a></li>
+                            <li><a href=contato.html>Contato</a></li>
+                        </lu>
+                    </nav>
+                </div>
+        </header>
+        <div class="encomendatilapia">
+            <h1>Tilapia</h1>
+            <p>Encomendas de tilapia inteira ou filé</p>
+            <p>Somente retirada no pesqueiro</p>
+        </div>
+
+        <main>
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="kg">Kg</label>
+				<input type="text" id="kg" class="input-padrao" required placeholder="Quantos Kilos de tilapia você deseja?">
+
+				<label for="data">Data para Retirada</label>
+				<input type="text" id="data" class="input-padrao" required placeholder="Qual dia gostaria de vir retirar suas tilapias?">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX - XXXX">
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário da retirada?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+		</main>
+
+        <footer>
+            <div class="numerodecontato">
+            <a href="https://contate.me/netohilkner"><img class="img" src="whatsapp.png"></a>
+            <p> 11 91315-1310 // 11 99878-2116 // 11 94756-8740</p>
+            <img class="img2" src="googlemapss.png">
+            <p>Estrada Santana, 884 - Caucaia do Alto, Cotia, SP</p>
+            <a href=https://www.facebook.com/pesqueironossafamilia><img class="img3" src="face.png"></a>
+            <a href="https://www.instagram.com/pesqueironossafamilia"><img class="img4" src="Insta.png"></a>
+        </div>
+        </footer>
